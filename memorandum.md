@@ -36,3 +36,11 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
+
+---
+
+## 格式化代码
+
+## Ruff
+
+对于 vscode，可以使用 vscode 插件: https://github.com/astral-sh/ruff-vscode
