@@ -17,7 +17,7 @@ RUN uv init || true
 RUN uv venv
 
 # 激活虚拟环境并安装依赖
-RUN /bin/bash -c "source $(uv venv activate) && uv sync"
+RUN uv venv && .venv/bin/activate && uv sync
 
 # 暴露应用的端口（假设应用运行在8000端口）
 EXPOSE 8000
