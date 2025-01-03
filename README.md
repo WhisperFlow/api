@@ -3,5 +3,5 @@
 ## DockerFile
 
 ```bash
-docker pull ghcr.io/whisperflow/api:latest
+sudo docker pull ghcr.io/whisperflow/api:latest
 ```
