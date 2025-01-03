@@ -23,4 +23,4 @@ RUN uv venv && /bin/bash -c "source .venv/bin/activate && uv sync"
 EXPOSE 8000
 
 # 启动服务
-CMD ["uv", "run", "uvicorn main:app --host 0.0.0.0 --port 8000"]
+CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
